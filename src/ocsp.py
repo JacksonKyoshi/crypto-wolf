@@ -1,4 +1,3 @@
-from cryptography import x509
 import requests
 from cryptography.x509.ocsp import OCSPRequestBuilder, load_der_ocsp_response
 from cryptography.x509.oid import ExtensionOID, AuthorityInformationAccessOID
